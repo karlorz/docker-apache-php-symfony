@@ -79,10 +79,13 @@ RUN a2enmod ssl
 # install Xdebug in case dev/test environment
 COPY ./docker/general/do_we_need_xdebug.sh /tmp/
 COPY ./docker/dev/xdebug-${XDEBUG_CONFIG}.ini /tmp/xdebug.ini
+RUN apt-get update && apt-get install -y dos2unix
+RUN dos2unix /tmp/do_we_need_xdebug.sh
 RUN chmod u+x /tmp/do_we_need_xdebug.sh && /tmp/do_we_need_xdebug.sh
 
 # install security-checker in case dev/test environment
 COPY ./docker/general/do_we_need_security-checker.sh /tmp/
+RUN dos2unix /tmp/do_we_need_security-checker.sh
 RUN chmod u+x /tmp/do_we_need_security-checker.sh && /tmp/do_we_need_security-checker.sh
 
 # install composer
