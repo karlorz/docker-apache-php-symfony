@@ -1,0 +1,12 @@
+{# If you have a base template, extend it #}
+{% extends 'base.html.twig' %}
+
+{# Define the title block if your base template uses it #}
+{% block title %}Log Example{% endblock %}
+
+{# Main content block #}
+{% block body %}
+    <h1>Log Example Page</h1>
+    <p>This is an example page to demonstrate logging in Symfony.</p>
+    <p>Controller Name: {{ controller_name }}</p>
+{% endblock %}
