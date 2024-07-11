@@ -1,0 +1,72 @@
+[
+    {
+        "name": "dukecity_command_scheduler_list",
+        "path": "\/command-scheduler\/list",
+        "methods": []
+    },
+    {
+        "name": "dukecity_command_scheduler_monitor",
+        "path": "\/command-scheduler\/monitor",
+        "methods": []
+    },
+    {
+        "name": "dukecity_command_scheduler_api_list",
+        "path": "\/command-scheduler\/api\/list",
+        "methods": []
+    },
+    {
+        "name": "dukecity_command_scheduler_api_console_commands",
+        "path": "\/command-scheduler\/api\/console_commands",
+        "methods": []
+    },
+    {
+        "name": "dukecity_command_scheduler_api_console_commands_details",
+        "path": "\/command-scheduler\/api\/console_commands_details\/{commands}",
+        "methods": []
+    },
+    {
+        "name": "dukecity_command_scheduler_api_translate_cron_expression",
+        "path": "\/command-scheduler\/api\/trans_cron_expression\/{cronExpression}\/{lang}",
+        "methods": []
+    },
+    {
+        "name": "dukecity_command_scheduler_action_toggle",
+        "path": "\/command-scheduler\/action\/toggle\/{id}",
+        "methods": []
+    },
+    {
+        "name": "dukecity_command_scheduler_action_remove",
+        "path": "\/command-scheduler\/action\/remove\/{id}",
+        "methods": []
+    },
+    {
+        "name": "dukecity_command_scheduler_action_execute",
+        "path": "\/command-scheduler\/action\/execute\/{id}",
+        "methods": []
+    },
+    {
+        "name": "dukecity_command_scheduler_action_unlock",
+        "path": "\/command-scheduler\/action\/unlock\/{id}",
+        "methods": []
+    },
+    {
+        "name": "dukecity_command_scheduler_detail_edit",
+        "path": "\/command-scheduler\/detail\/edit\/{id}",
+        "methods": []
+    },
+    {
+        "name": "dukecity_command_scheduler_detail_new",
+        "path": "\/command-scheduler\/detail\/edit",
+        "methods": []
+    },
+    {
+        "name": "log_example",
+        "path": "\/log\/example",
+        "methods": []
+    },
+    {
+        "name": "app_lucky_number",
+        "path": "\/lucky\/number",
+        "methods": []
+    }
+]
